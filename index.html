@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Political Meter</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="politicalForm">
+        <h2>More taxes for the rich</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="a1" value="1" checked>
+            Yes
+          </label>
+        </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="a1" value="-1">
+              No
+            </label>
+          </div>
+        <h2>ProChoice vs ProLife</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="a2" value="1" checked>
+            ProChoice
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="a2" value="-1">
+            ProLife
+          </label>
+        </div>
+        <h2>Should there be gun law reform</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="a3" value="1" checked>
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="a3" value="-1">
+            No
+          </label>
+        </div>
+        <h2>Should we increase the federal minimum wage</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="a4" value="1" checked>
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="a4" value="-1">
+            No
+          </label>
+        </div>
+        <button type="submit" name="button">Submit</button>
+      </form>
+      <div class="party" id="dem">
+        <h1>You got: Democrat</h1>
+        <img src="https://www.myjewishlearning.com/wp-content/uploads/2015/04/democrats-hp.jpg" alt="Democrat Donkey">
+      </div>
+      <div class="party" id="rep">
+          <h1>You got: Republican </h1>
+          <img src="https://www.worldatlas.com/r/w728-h425-c728x425/upload/cf/5e/28/untitled-design-22.jpg" alt="Republican">
+      </div>
+      <div class="party" id="moderate">
+          <h1>You got: Moderate </h1>
+          <img src="https://presidentialpoliticsblog.files.wordpress.com/2018/08/untitled4.png?w=797" alt="Moderate">
+      </div>
+    </div>
+  </body>
+</html>
